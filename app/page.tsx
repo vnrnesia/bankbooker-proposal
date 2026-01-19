@@ -3,7 +3,7 @@ import {
     Target, ShieldCheck, Lock, Rocket, BarChart3, Building,
     Smartphone, Cog, Calendar, AlertTriangle, Coins, Search,
     CreditCard, Landmark, CircleDot, Diamond, Banknote,
-    ClipboardList, Zap, Timer, MessageCircle, Globe, MapPin
+    ClipboardList, Zap, Timer, MessageCircle, Globe, MapPin, Maximize2
 } from 'lucide-react';
 
 export default function VVPlatformProposal() {
@@ -197,14 +197,22 @@ export default function VVPlatformProposal() {
                                 <BarChart3 className="w-4 h-4" /> Teknk Diyagramlar <span className="text-xs text-amber-500 font-medium">(TASLAK)</span>
                             </h3>
 
-                            <div className="grid gap-4">
+                            <div className="grid gap-6">
                                 <div className="rounded-2xl border border-slate-200 p-4">
                                     <h4 className="text-sm font-semibold text-slate-800 mb-3 flex items-center gap-2"><Building className="w-4 h-4" /> Mimari Diyagram</h4>
                                     <img
                                         src="/architecture_diagram.png"
                                         alt="Sistem Mimarisi Diyagramı"
-                                        className="w-full rounded-lg border border-slate-100"
+                                        className="w-full max-h-[500px] object-contain rounded-lg border border-slate-100 mb-3"
                                     />
+                                    <a
+                                        href="/architecture_diagram.png"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors"
+                                    >
+                                        <Maximize2 className="w-4 h-4" /> Büyük Görüntüle
+                                    </a>
                                 </div>
 
                                 <div className="rounded-2xl border border-slate-200 p-4">
@@ -212,8 +220,16 @@ export default function VVPlatformProposal() {
                                     <img
                                         src="/database_schema.png"
                                         alt="Veritabanı Şeması"
-                                        className="w-full rounded-lg border border-slate-100"
+                                        className="w-full max-h-[500px] object-contain rounded-lg border border-slate-100 mb-3"
                                     />
+                                    <a
+                                        href="/database_schema.png"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors"
+                                    >
+                                        <Maximize2 className="w-4 h-4" /> Büyük Görüntüle
+                                    </a>
                                 </div>
 
                                 <div className="rounded-2xl border border-slate-200 p-4">
@@ -221,8 +237,16 @@ export default function VVPlatformProposal() {
                                     <img
                                         src="/layers.png"
                                         alt="Uygulama Katman Yapısı"
-                                        className="w-full rounded-lg border border-slate-100"
+                                        className="w-full max-h-[500px] object-contain rounded-lg border border-slate-100 mb-3"
                                     />
+                                    <a
+                                        href="/layers.png"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors"
+                                    >
+                                        <Maximize2 className="w-4 h-4" /> Büyük Görüntüle
+                                    </a>
                                 </div>
                             </div>
                         </div>
