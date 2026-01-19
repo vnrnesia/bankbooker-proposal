@@ -510,89 +510,92 @@ export default function VVPlatformProposal() {
                             <span className="h-px flex-1 bg-slate-200" />
                         </div>
 
-                        <div className="rounded-2xl border border-amber-200 bg-amber-50/50 p-4 mb-4">
-                            <p className="text-sm text-slate-700">
-                                <strong><BarChart3 className="w-4 h-4 inline" /> Fiyatlandırma Referansı:</strong> Rusya freelance IT piyasası
-                                (özellikle regional şehirler - Kazan, Novosibirsk vb.) baz alınmıştır.
-                                Ortalama 25-30 USD/saat bandı esas alınmıştır.
-                            </p>
-                        </div>
-
                         <div className="grid gap-6 md:grid-cols-3">
                             {/* STANDART */}
                             <div className="flex flex-col rounded-2xl border border-slate-200 bg-slate-50 p-4 shadow-md">
-                                <div className="text-xs font-semibold uppercase tracking-[0.18em] text-sky-500 flex items-center gap-1">
+                                <div className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-600 flex items-center gap-1">
                                     <CircleDot className="w-3 h-3" /> Standart Paket
                                 </div>
-                                <div className="mt-2 text-lg font-semibold text-slate-900">
-                                    20.000 USD
+                                <div className="mt-2 text-xl font-bold text-slate-900">
+                                    4.500 USD
                                 </div>
                                 <p className="mt-1 text-xs text-slate-600">
                                     MVP - Hızlı Başlangıç
                                 </p>
-                                <ul className="mt-3 space-y-1 text-md text-slate-700 flex-1">
-                                    <li>✓ Discovery & Analiz</li>
-                                    <li>✓ UX/UI Tasarım</li>
-                                    <li>✓ Core MVP Geliştirme</li>
-                                    <li>✓ Auth + KYC Modülü</li>
-                                    <li>✓ Invoice Payment</li>
-                                    <li>✓ FX Revenue Return</li>
-                                    <li>✓ Deal Tracking</li>
-                                    <li>✓ Documents & Support</li>
+                                <ul className="mt-3 space-y-1 text-sm text-slate-700 flex-1">
+                                    <li>✓ Product Discovery Workshop (1 hafta)</li>
+                                    <li>✓ Wireframe + UX Flow</li>
+                                    <li>✓ Basit ama temiz UI Kit</li>
+                                    <li>✓ Core MVP Backend</li>
+                                    <li>✓ User Auth (Login / Register)</li>
+                                    <li>✓ Temel Deal / Order Yönetimi</li>
+                                    <li>✓ Basit Payment Logic (Mock / Manual)</li>
+                                    <li>✓ Admin Panel (Basic)</li>
+                                    <li>✓ Teknik Dokümantasyon</li>
+                                    <li>✓ 2 Hafta Bug Fix Desteği</li>
                                 </ul>
                                 <div className="mt-3 border-t border-slate-200 pt-3 text-xs text-slate-600">
-                                    <div className="font-semibold">İçermez:</div>
-                                    <div>• Partner Extensions</div>
-                                    <div>• QA/DevOps Release</div>
+                                    <div className="font-semibold">Hariç:</div>
+                                    <div>• Partner sistemi</div>
+                                    <div>• Gelişmiş raporlar</div>
+                                    <div>• Otomatik ödeme altyapısı</div>
                                 </div>
                             </div>
 
                             {/* GELİŞMİŞ */}
-                            <div className="flex flex-col rounded-2xl border border-violet-200 bg-violet-50/70 p-4 shadow-md ring-2 ring-violet-300">
-                                <div className="text-xs font-semibold uppercase tracking-[0.18em] text-violet-600 flex items-center gap-1">
+                            <div className="flex flex-col rounded-2xl border border-slate-300 bg-slate-100 p-4 shadow-md ring-2 ring-slate-400">
+                                <div className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-700 flex items-center gap-1">
                                     <CircleDot className="w-3 h-3" /> Gelişmiş Paket ⭐
                                 </div>
-                                <div className="mt-2 text-lg font-semibold text-slate-900">
-                                    28.000 USD
+                                <div className="mt-2 text-xl font-bold text-slate-900">
+                                    8.999 USD
                                 </div>
                                 <p className="mt-1 text-xs text-slate-600">
-                                    MVP + Partner Başlangıç
+                                    MVP + Partner Sistemi
                                 </p>
-                                <ul className="mt-3 space-y-1 text-md text-slate-700 flex-1">
-                                    <li>✓ Standart Paket dahil</li>
-                                    <li>✓ Partner Extensions</li>
-                                    <li>✓ Clients Modülü</li>
-                                    <li>✓ Deals & Orders</li>
+                                <ul className="mt-3 space-y-1 text-sm text-slate-700 flex-1">
+                                    <li>✓ Standart Paket +</li>
+                                    <li>✓ Partner / Affiliate Sistemi</li>
+                                    <li>✓ Client & Partner Rolleri</li>
+                                    <li>✓ Deals & Orders Gelişmiş Akış</li>
+                                    <li>✓ Otomatik Invoice & Ödeme Mantığı</li>
                                     <li>✓ Income Calculator</li>
-                                    <li>✓ Reports & Analytics</li>
-                                    <li>✓ Payout Settings</li>
-                                    <li>✓ Partner Tools</li>
+                                    <li>✓ Dashboard (Gelir, işlem, kullanıcı)</li>
+                                    <li>✓ Basic Analytics (CSV / Export)</li>
+                                    <li>✓ Notification System (Email / In-App)</li>
+                                    <li>✓ Staging Deployment</li>
+                                    <li>✓ 1 Ay Destek & İyileştirme</li>
                                 </ul>
-                                <div className="mt-3 border-t border-violet-200 pt-3 text-xs text-slate-600">
-                                    <div className="font-semibold text-violet-600">ÖNERİLEN</div>
+                                <div className="mt-3 border-t border-slate-300 pt-3 text-xs text-slate-600">
+                                    <div className="font-semibold text-slate-700">ÖNERİLEN</div>
                                 </div>
                             </div>
 
                             {/* PREMIUM */}
-                            <div className="flex flex-col rounded-2xl border border-amber-200 bg-amber-50/70 p-4 shadow-md">
-                                <div className="text-xs font-semibold uppercase tracking-[0.18em] text-amber-600 flex items-center gap-1">
+                            <div className="flex flex-col rounded-2xl border border-slate-200 bg-slate-50 p-4 shadow-md">
+                                <div className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-600 flex items-center gap-1">
                                     <CircleDot className="w-3 h-3" /> Premium Paket
                                 </div>
-                                <div className="mt-2 text-lg font-semibold text-slate-900">
-                                    32.000 USD
+                                <div className="mt-2 text-xl font-bold text-slate-900">
+                                    13.999 USD
                                 </div>
                                 <p className="mt-1 text-xs text-slate-600">
                                     Full Scope - Production Ready
                                 </p>
-                                <ul className="mt-3 space-y-1 text-md text-slate-700 flex-1">
+                                <ul className="mt-3 space-y-1 text-sm text-slate-700 flex-1">
                                     <li>✓ Gelişmiş Paket dahil</li>
-                                    <li>✓ QA & Test Suite</li>
-                                    <li>✓ DevOps Kurulumu</li>
+                                    <li>✓ Advanced UX/UI (Design System)</li>
+                                    <li>✓ QA Test Senaryoları</li>
                                     <li>✓ CI/CD Pipeline</li>
+                                    <li>✓ DevOps Kurulumu</li>
                                     <li>✓ Performans Optimizasyonu</li>
+                                    <li>✓ Güvenlik Kontrolleri</li>
                                     <li>✓ Production Release</li>
-                                    <li>✓ App Store Yayını</li>
-                                    <li>✓ 3 Ay Ücretsiz Destek</li>
+                                    <li>✓ Monitoring & Logging</li>
+                                    <li>✓ Hosting masrafları</li>
+                                    <li>✓ Server masrafları</li>
+                                    <li>✓ Uygulamanın store yüklenimi</li>
+                                    <li>✓ 4 Ay Destek (keyfi değişiklikleri içermez)</li>
                                 </ul>
                             </div>
                         </div>
