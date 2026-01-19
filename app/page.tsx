@@ -10,7 +10,7 @@ export default function VVPlatformProposal() {
     return (
         <main className="min-h-screen px-4 py-10">
             <div className="mx-auto max-w-4xl">
-                {/* Üst meta alanı */}
+                {/* Верхняя мета область */}
                 <header className="mb-10 flex flex-col gap-6 rounded-3xl bg-white/80 p-6 shadow-sm ring-1 ring-slate-200 backdrop-blur">
                     <div className="flex flex-wrap items-center justify-between gap-4">
                         <div className="flex items-center gap-3">
@@ -19,7 +19,7 @@ export default function VVPlatformProposal() {
                             </div>
                             <div>
                                 <div className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
-                                    TİCARİ TEKLİF
+                                    КОММЕРЧЕСКОЕ ПРЕДЛОЖЕНИЕ
                                 </div>
                                 <div className="text-md text-slate-500">
                                     Defyzer — 19.01.{new Date().getFullYear()}
@@ -30,7 +30,7 @@ export default function VVPlatformProposal() {
                         <div className="flex flex-wrap gap-4 text-md text-slate-600">
                             <div>
                                 <div className="text-xs uppercase tracking-[0.18em] text-slate-400">
-                                    Hazırlayan
+                                    Подготовлено
                                 </div>
                                 <div className="font-medium">Defyzer</div>
                                 <a
@@ -43,120 +43,120 @@ export default function VVPlatformProposal() {
 
                             <div>
                                 <div className="text-xs uppercase tracking-[0.18em] text-slate-400">
-                                    Müşteri
+                                    Клиент
                                 </div>
                                 <div className="font-medium">Bankbooker</div>
-                                <p className="text-slate-500">Uluslararası Ödeme Platformu</p>
+                                <p className="text-slate-500">Международная платёжная платформа</p>
                             </div>
                         </div>
                     </div>
 
                     <div className="border-t border-slate-100 pt-6">
                         <h1 className="text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
-                            Bankbooker - TEKLİF DOKÜMANI
+                            Bankbooker - ДОКУМЕНТ ПРЕДЛОЖЕНИЯ
                         </h1>
                         <p className="mt-2 max-w-2xl text-md text-slate-700 py-4">
-                            Tek mobil uygulama içinde iki farklı rolü (USER + PARTNER) destekleyen,
-                            uluslararası döviz işlemleri ve operasyonlarının yönetilebileceği
-                            kapsamlı bir Kişisel Kabin platformu geliştirme projesi.
+                            Проект разработки комплексной платформы Личного Кабинета,
+                            поддерживающей две разные роли (USER + PARTNER) в одном мобильном приложении,
+                            с возможностью управления международными валютными операциями.
                         </p>
                     </div>
                 </header>
 
-                {/* İçerik alanı */}
+                {/* Область контента */}
                 <article className="space-y-10 rounded-3xl bg-white/90 p-6 shadow-sm ring-1 ring-slate-200 backdrop-blur sm:p-10">
-                    {/* Giriş */}
+                    {/* Введение */}
                     <section className="space-y-4" id="intro">
                         <div className="flex items-center gap-3">
                             <span className="h-px flex-1 bg-slate-200" />
                             <h2 className="shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-                                Proje Özeti
+                                Краткое описание проекта
                             </h2>
                             <span className="h-px flex-1 bg-slate-200" />
                         </div>
 
                         <p className="text-md leading-relaxed text-slate-700">
-                            <span className="font-semibold">Defyzer</span>, VV Platform için
-                            uluslararası döviz ödeme işlemlerini (invoice payment) ve döviz gelir
-                            iadesini (FX revenue return) yönetebilecek kapsamlı bir mobil uygulama
-                            geliştirmeyi teklif etmektedir.
+                            <span className="font-semibold">Defyzer</span> предлагает разработку
+                            комплексного мобильного приложения для VV Platform, которое будет управлять
+                            международными валютными платежами (invoice payment) и возвратом валютной выручки
+                            (FX revenue return).
                         </p>
 
                         <div className="rounded-2xl border border-blue-200 bg-blue-50/50 p-4">
                             <h4 className="text-md font-semibold text-blue-800 flex items-center gap-2">
-                                <Target className="w-5 h-5" /> Proje Hedefi
+                                <Target className="w-5 h-5" /> Цель проекта
                             </h4>
                             <p className="mt-2 text-md text-slate-700">
-                                Tek uygulama içinde iki farklı kullanıcı rolünü destekleyen,
-                                modern ve ölçeklenebilir bir platform:
+                                Современная и масштабируемая платформа, поддерживающая
+                                две разные роли пользователей в одном приложении:
                             </p>
                             <ul className="mt-2 space-y-1 text-md text-slate-700">
-                                <li>• <strong>USER (Kullanıcı Kabini):</strong> Ödeme/işlem talebi oluşturma, doküman yükleme, süreç takibi</li>
-                                <li>• <strong>PARTNER (Partner Kabini):</strong> Müşteri/portföy yönetimi, gelir/komisyon görünürlüğü, raporlama</li>
+                                <li>• <strong>USER (Кабинет пользователя):</strong> Создание платёжных/транзакционных запросов, загрузка документов, отслеживание процесса</li>
+                                <li>• <strong>PARTNER (Кабинет партнёра):</strong> Управление клиентами/портфелем, видимость доходов/комиссий, отчётность</li>
                             </ul>
                         </div>
 
                         <p className="text-md leading-relaxed text-slate-700">
-                            Uygulama; navigasyon yapısı, UI/UX standartları ve performans hedefleri
-                            dokümanlarda tanımlanan gereksinimlere uygun şekilde tasarlanacaktır.
+                            Приложение будет разработано в соответствии с требованиями,
+                            определёнными в документации: структура навигации, стандарты UI/UX и цели производительности.
                         </p>
                     </section>
 
-                    {/* Tek Uygulama Yapısı */}
+                    {/* Архитектура единого приложения */}
                     <section className="space-y-4" id="architecture">
                         <div className="flex items-center gap-3">
                             <span className="h-px flex-1 bg-slate-200" />
                             <h2 className="shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-                                Tek Uygulama Mimarisi
+                                Архитектура единого приложения
                             </h2>
                             <span className="h-px flex-1 bg-slate-200" />
                         </div>
 
                         <div className="rounded-2xl border border-slate-200 bg-gradient-to-r from-blue-50 to-purple-50 p-4">
                             <h4 className="text-md font-semibold text-slate-800 flex items-center gap-2">
-                                <ShieldCheck className="w-5 h-5" /> Rol Bazlı Erişim Kontrolü (RBAC)
+                                <ShieldCheck className="w-5 h-5" /> Управление доступом на основе ролей (RBAC)
                             </h4>
                             <p className="mt-2 text-md text-slate-700">
-                                Uygulama tek codebase ile geliştirilecek. Login sonrası backend "role" döndürür:
+                                Приложение будет разработано на единой кодовой базе. После входа backend возвращает "role":
                             </p>
                             <div className="mt-3 grid gap-3 sm:grid-cols-2">
                                 <div className="rounded-xl bg-white p-3 shadow-sm">
                                     <div className="text-sm font-semibold text-blue-600">ROLE = USER</div>
-                                    <p className="text-sm text-slate-600">Kullanıcı menüsü ve ekranları</p>
+                                    <p className="text-sm text-slate-600">Меню и экраны пользователя</p>
                                 </div>
                                 <div className="rounded-xl bg-white p-3 shadow-sm">
                                     <div className="text-sm font-semibold text-purple-600">ROLE = PARTNER</div>
-                                    <p className="text-sm text-slate-600">Partner menüsü + ek modüller</p>
+                                    <p className="text-sm text-slate-600">Меню партнёра + доп. модули</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="space-y-3">
                             <h3 className="text-md font-semibold uppercase tracking-[0.18em] text-slate-500">
-                                Navigasyon Standardı
+                                Стандарт навигации
                             </h3>
                             <ul className="space-y-1 text-md text-slate-700">
-                                <li>• <strong>Burger Menü:</strong> Full-screen overlay, swipe down + X ile kapanış</li>
-                                <li>• <strong>Alt Menü:</strong> Home / Payments / Documents / Personal Manager / Profile</li>
+                                <li>• <strong>Burger Menu:</strong> Full-screen overlay, закрытие свайпом вниз + X</li>
+                                <li>• <strong>Нижнее меню:</strong> Home / Payments / Documents / Personal Manager / Profile</li>
                             </ul>
                         </div>
                     </section>
 
-                    {/* Teknoloji Stack */}
+                    {/* Технологический стек */}
                     <section className="space-y-4" id="tech-stack">
                         <div className="flex items-center gap-3">
                             <span className="h-px flex-1 bg-slate-200" />
                             <h2 className="shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-                                Teknoloji Stack
+                                Технологический стек
                             </h2>
                             <span className="h-px flex-1 bg-slate-200" />
                         </div>
 
                         <div className="grid gap-4 text-md text-slate-700 sm:grid-cols-2">
                             <div className="rounded-2xl border border-slate-200 p-4">
-                                <h4 className="text-sm font-semibold text-slate-800 mb-2 flex items-center gap-2"><Smartphone className="w-4 h-4" /> Mobil Uygulama</h4>
+                                <h4 className="text-sm font-semibold text-slate-800 mb-2 flex items-center gap-2"><Smartphone className="w-4 h-4" /> Мобильное приложение</h4>
                                 <ul className="space-y-1">
-                                    <li>• React Native — Tek codebase</li>
+                                    <li>• React Native — Единая кодовая база</li>
                                     <li>• Clean Architecture</li>
                                     <li>• Redux / Zustand State Management</li>
                                     <li>• iOS + Android</li>
@@ -172,10 +172,10 @@ export default function VVPlatformProposal() {
                                 </ul>
                             </div>
                             <div className="rounded-2xl border border-slate-200 p-4">
-                                <h4 className="text-sm font-semibold text-slate-800 mb-2 flex items-center gap-2"><Lock className="w-4 h-4" /> Güvenlik</h4>
+                                <h4 className="text-sm font-semibold text-slate-800 mb-2 flex items-center gap-2"><Lock className="w-4 h-4" /> Безопасность</h4>
                                 <ul className="space-y-1">
                                     <li>• JWT Authentication</li>
-                                    <li>• KYC/AML Entegrasyonu (Manuel doğrulama - Bitrix üzerinden admin onayı)</li>
+                                    <li>• KYC/AML Интеграция (Ручная верификация - подтверждение админом через Bitrix)</li>
                                     <li>• iDenfy Document Verification</li>
                                     <li>• OFAC/UN Sanctions Screening</li>
                                 </ul>
@@ -191,18 +191,18 @@ export default function VVPlatformProposal() {
                             </div>
                         </div>
 
-                        {/* Teknik Diyagramlar //vercel deploy fix */}
+                        {/* Технические диаграммы */}
                         <div className="space-y-4 mt-6">
                             <h3 className="text-md font-semibold uppercase tracking-[0.18em] text-slate-500 flex items-center gap-2">
-                                <BarChart3 className="w-4 h-4" /> Teknk Diyagramlar <span className="text-xs text-amber-500 font-medium">(TASLAK)</span>
+                                <BarChart3 className="w-4 h-4" /> Технические диаграммы <span className="text-xs text-amber-500 font-medium">(ЧЕРНОВИК)</span>
                             </h3>
 
                             <div className="grid gap-6">
                                 <div className="rounded-2xl border border-slate-200 p-4">
-                                    <h4 className="text-sm font-semibold text-slate-800 mb-3 flex items-center gap-2"><Building className="w-4 h-4" /> Mimari Diyagram</h4>
+                                    <h4 className="text-sm font-semibold text-slate-800 mb-3 flex items-center gap-2"><Building className="w-4 h-4" /> Диаграмма архитектуры</h4>
                                     <img
                                         src="/architecture_diagram.png"
-                                        alt="Sistem Mimarisi Diyagramı"
+                                        alt="Диаграмма архитектуры системы"
                                         className="w-full max-h-[500px] object-contain rounded-lg border border-slate-100 mb-3"
                                     />
                                     <a
@@ -211,15 +211,15 @@ export default function VVPlatformProposal() {
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors"
                                     >
-                                        <Maximize2 className="w-4 h-4" /> Büyük Görüntüle
+                                        <Maximize2 className="w-4 h-4" /> Увеличить
                                     </a>
                                 </div>
 
                                 <div className="rounded-2xl border border-slate-200 p-4">
-                                    <h4 className="text-sm font-semibold text-slate-800 mb-3 flex items-center gap-2"><Landmark className="w-4 h-4" /> Veritabanı Şeması</h4>
+                                    <h4 className="text-sm font-semibold text-slate-800 mb-3 flex items-center gap-2"><Landmark className="w-4 h-4" /> Схема базы данных</h4>
                                     <img
                                         src="/database_schema.png"
-                                        alt="Veritabanı Şeması"
+                                        alt="Схема базы данных"
                                         className="w-full max-h-[500px] object-contain rounded-lg border border-slate-100 mb-3"
                                     />
                                     <a
@@ -228,15 +228,15 @@ export default function VVPlatformProposal() {
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors"
                                     >
-                                        <Maximize2 className="w-4 h-4" /> Büyük Görüntüle
+                                        <Maximize2 className="w-4 h-4" /> Увеличить
                                     </a>
                                 </div>
 
                                 <div className="rounded-2xl border border-slate-200 p-4">
-                                    <h4 className="text-sm font-semibold text-slate-800 mb-3 flex items-center gap-2"><BarChart3 className="w-4 h-4" /> Katman Yapısı</h4>
+                                    <h4 className="text-sm font-semibold text-slate-800 mb-3 flex items-center gap-2"><BarChart3 className="w-4 h-4" /> Структура слоёв</h4>
                                     <img
                                         src="/layers.png"
-                                        alt="Uygulama Katman Yapısı"
+                                        alt="Структура слоёв приложения"
                                         className="w-full max-h-[500px] object-contain rounded-lg border border-slate-100 mb-3"
                                     />
                                     <a
@@ -245,120 +245,120 @@ export default function VVPlatformProposal() {
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors"
                                     >
-                                        <Maximize2 className="w-4 h-4" /> Büyük Görüntüle
+                                        <Maximize2 className="w-4 h-4" /> Увеличить
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </section>
 
-                    {/* Modüller */}
+                    {/* Модули */}
                     <section className="space-y-6" id="modules">
                         <div className="flex items-center gap-3">
                             <span className="h-px flex-1 bg-slate-200" />
                             <h2 className="shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-                                Proje Modülleri
+                                Модули проекта
                             </h2>
                             <span className="h-px flex-1 bg-slate-200" />
                         </div>
 
-                        {/* Core Modüller */}
+                        {/* Core модули */}
                         <div className="space-y-3">
                             <h3 className="text-md font-semibold uppercase tracking-[0.18em] text-slate-500 flex items-center gap-2">
-                                <CircleDot className="w-4 h-4 text-blue-500" /> Core Modüller (USER + PARTNER Ortak)
+                                <CircleDot className="w-4 h-4 text-blue-500" /> Core модули (общие для USER + PARTNER)
                             </h3>
 
                             <div className="grid gap-3 sm:grid-cols-2">
                                 <div className="rounded-xl border border-slate-200 p-3">
                                     <div className="font-semibold text-slate-800">Auth & KYC/AML</div>
-                                    <p className="text-sm text-slate-600">Kayıt, giriş, email doğrulama, şirket bilgileri, doküman yükleme, KYC stepper</p>
+                                    <p className="text-sm text-slate-600">Регистрация, вход, подтверждение email, данные компании, загрузка документов, KYC stepper</p>
                                 </div>
                                 <div className="rounded-xl border border-slate-200 p-3">
                                     <div className="font-semibold text-slate-800">Invoice Payment</div>
-                                    <p className="text-sm text-slate-600">Talep formu, deal timeline, dokümanlar, status history</p>
+                                    <p className="text-sm text-slate-600">Форма запроса, deal timeline, документы, история статусов</p>
                                 </div>
                                 <div className="rounded-xl border border-slate-200 p-3">
                                     <div className="font-semibold text-slate-800">FX Revenue Return</div>
-                                    <p className="text-sm text-slate-600">Döviz geliri iadesi talep formu ve takibi</p>
+                                    <p className="text-sm text-slate-600">Форма запроса и отслеживание возврата валютной выручки</p>
                                 </div>
                                 <div className="rounded-xl border border-slate-200 p-3">
                                     <div className="font-semibold text-slate-800">Deal Tracking</div>
-                                    <p className="text-sm text-slate-600">İşlem listesi, filtreleme, detay timeline</p>
+                                    <p className="text-sm text-slate-600">Список операций, фильтрация, детальный timeline</p>
                                 </div>
                                 <div className="rounded-xl border border-slate-200 p-3">
                                     <div className="font-semibold text-slate-800">Documents</div>
-                                    <p className="text-sm text-slate-600">Doküman listesi, durum yönetimi</p>
+                                    <p className="text-sm text-slate-600">Список документов, управление статусами</p>
                                 </div>
                                 <div className="rounded-xl border border-slate-200 p-3">
                                     <div className="font-semibold text-slate-800">Support & FAQ</div>
-                                    <p className="text-sm text-slate-600">Destek talepleri, manager chat, bilgi bankası</p>
+                                    <p className="text-sm text-slate-600">Запросы поддержки, чат с менеджером, база знаний</p>
                                 </div>
                             </div>
                         </div>
 
-                        {/* Partner Modüller */}
+                        {/* Partner модули */}
                         <div className="space-y-3">
                             <h3 className="text-md font-semibold uppercase tracking-[0.18em] text-slate-500 flex items-center gap-2">
-                                <CircleDot className="w-4 h-4 text-purple-500" /> Partner Özel Modüller
+                                <CircleDot className="w-4 h-4 text-purple-500" /> Специальные модули Partner
                             </h3>
 
                             <div className="grid gap-3 sm:grid-cols-2">
                                 <div className="rounded-xl border border-purple-200 bg-purple-50/50 p-3">
                                     <div className="font-semibold text-purple-800">Clients</div>
-                                    <p className="text-sm text-slate-600">Müşteri portföy yönetimi</p>
+                                    <p className="text-sm text-slate-600">Управление клиентским портфелем</p>
                                 </div>
                                 <div className="rounded-xl border border-purple-200 bg-purple-50/50 p-3">
                                     <div className="font-semibold text-purple-800">Deals & Orders</div>
-                                    <p className="text-sm text-slate-600">Komisyon görünümlü işlem tablosu</p>
+                                    <p className="text-sm text-slate-600">Таблица операций с отображением комиссий</p>
                                 </div>
                                 <div className="rounded-xl border border-purple-200 bg-purple-50/50 p-3">
                                     <div className="font-semibold text-purple-800">Income Calculator</div>
-                                    <p className="text-sm text-slate-600">Komisyon/gelir hesaplama aracı</p>
+                                    <p className="text-sm text-slate-600">Инструмент расчёта комиссий/доходов</p>
                                 </div>
                                 <div className="rounded-xl border border-purple-200 bg-purple-50/50 p-3">
                                     <div className="font-semibold text-purple-800">Reports & Analytics</div>
-                                    <p className="text-sm text-slate-600">Raporlama, analitik, export</p>
+                                    <p className="text-sm text-slate-600">Отчётность, аналитика, экспорт</p>
                                 </div>
                                 <div className="rounded-xl border border-purple-200 bg-purple-50/50 p-3">
                                     <div className="font-semibold text-purple-800">Payout Settings</div>
-                                    <p className="text-sm text-slate-600">Partner ödeme ayarları</p>
+                                    <p className="text-sm text-slate-600">Настройки выплат партнёра</p>
                                 </div>
                                 <div className="rounded-xl border border-purple-200 bg-purple-50/50 p-3">
                                     <div className="font-semibold text-purple-800">Partner Tools</div>
-                                    <p className="text-sm text-slate-600">Referral link, QR kod, materyaller</p>
+                                    <p className="text-sm text-slate-600">Реферальная ссылка, QR код, материалы</p>
                                 </div>
                             </div>
                         </div>
                     </section>
 
-                    {/* UX/UI Standartları */}
+                    {/* Стандарты UX/UI */}
                     <section className="space-y-4" id="ux-standards">
                         <div className="flex items-center gap-3">
                             <span className="h-px flex-1 bg-slate-200" />
                             <h2 className="shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-                                UX/UI Standartları
+                                Стандарты UX/UI
                             </h2>
                             <span className="h-px flex-1 bg-slate-200" />
                         </div>
 
                         <div className="grid gap-4 text-md text-slate-700 sm:grid-cols-2">
                             <ul className="space-y-1">
-                                <li>• Ekran yüksekliği: 85–100vh</li>
-                                <li>• H1: max 2 satır, 60–70 karakter</li>
+                                <li>• Высота экрана: 85–100vh</li>
+                                <li>• H1: макс 2 строки, 60–70 символов</li>
                                 <li>• 1 Primary CTA + 1 Secondary CTA</li>
-                                <li>• Tipografi: Damascus + Gotham Pro</li>
+                                <li>• Типография: Damascus + Gotham Pro</li>
                             </ul>
                             <ul className="space-y-1">
-                                <li>• Grid: 4–6 kolon responsive</li>
-                                <li>• Buton yüksekliği: 48–56px</li>
-                                <li>• Touch target: min 44×44px</li>
-                                <li>• Animasyon: Fade/slide 200–300ms</li>
+                                <li>• Grid: 4–6 колонок responsive</li>
+                                <li>• Высота кнопки: 48–56px</li>
+                                <li>• Touch target: мин 44×44px</li>
+                                <li>• Анимация: Fade/slide 200–300ms</li>
                             </ul>
                         </div>
 
                         <div className="rounded-2xl border border-slate-200 bg-slate-50/50 p-4">
                             <h4 className="text-md font-semibold text-slate-800 flex items-center gap-2">
-                                <Zap className="w-5 h-5" /> Performans Hedefleri
+                                <Zap className="w-5 h-5" /> Цели производительности
                             </h4>
                             <div className="mt-2 grid gap-2 sm:grid-cols-3">
                                 <div className="text-center">
@@ -377,12 +377,12 @@ export default function VVPlatformProposal() {
                         </div>
                     </section>
 
-                    {/* Proje Zaman Planı */}
+                    {/* График проекта */}
                     <section className="space-y-4" id="timeline">
                         <div className="flex items-center gap-3">
                             <span className="h-px flex-1 bg-slate-200" />
                             <h2 className="shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-                                Proje Zaman Planı
+                                График проекта
                             </h2>
                             <span className="h-px flex-1 bg-slate-200" />
                         </div>
@@ -391,75 +391,75 @@ export default function VVPlatformProposal() {
                             <table className="min-w-full text-left text-md text-slate-700">
                                 <thead className="bg-slate-50 text-xs uppercase tracking-wide text-slate-500">
                                     <tr>
-                                        <th className="px-4 py-3">Aşama</th>
-                                        <th className="px-4 py-3">İçerik</th>
-                                        <th className="px-4 py-3">Süre</th>
+                                        <th className="px-4 py-3">Этап</th>
+                                        <th className="px-4 py-3">Содержание</th>
+                                        <th className="px-4 py-3">Срок</th>
                                     </tr>
                                 </thead>
 
                                 <tbody>
                                     <tr className="border-t border-slate-100">
-                                        <td className="px-4 py-3 font-medium">Faz 0</td>
-                                        <td className="px-4 py-3">Discovery & Teknik Analiz</td>
-                                        <td className="px-4 py-3 whitespace-nowrap">1 Hafta</td>
+                                        <td className="px-4 py-3 font-medium">Фаза 0</td>
+                                        <td className="px-4 py-3">Discovery & Технический анализ</td>
+                                        <td className="px-4 py-3 whitespace-nowrap">1 неделя</td>
                                     </tr>
 
                                     <tr className="border-t border-slate-100">
-                                        <td className="px-4 py-3 font-medium">Faz 1</td>
-                                        <td className="px-4 py-3">UX/UI Tasarım (UI Kit + Ekranlar)</td>
-                                        <td className="px-4 py-3 whitespace-nowrap">1-2 Hafta</td>
+                                        <td className="px-4 py-3 font-medium">Фаза 1</td>
+                                        <td className="px-4 py-3">UX/UI Дизайн (UI Kit + Экраны)</td>
+                                        <td className="px-4 py-3 whitespace-nowrap">1-2 недели</td>
                                     </tr>
 
                                     <tr className="border-t border-slate-100">
-                                        <td className="px-4 py-3 font-medium">Faz 2</td>
-                                        <td className="px-4 py-3">Core MVP Geliştirme (USER + PARTNER ortak)</td>
-                                        <td className="px-4 py-3 whitespace-nowrap">4-5 Hafta</td>
+                                        <td className="px-4 py-3 font-medium">Фаза 2</td>
+                                        <td className="px-4 py-3">Core MVP Разработка (общие USER + PARTNER)</td>
+                                        <td className="px-4 py-3 whitespace-nowrap">4-5 недель</td>
                                     </tr>
 
                                     <tr className="border-t border-slate-100">
-                                        <td className="px-4 py-3 font-medium">Faz 3</td>
+                                        <td className="px-4 py-3 font-medium">Фаза 3</td>
                                         <td className="px-4 py-3">QA, DevOps & Release</td>
-                                        <td className="px-4 py-3 whitespace-nowrap">1-2 Hafta</td>
+                                        <td className="px-4 py-3 whitespace-nowrap">1-2 недели</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
 
                         <p className="text-sm text-slate-600">
-                            Toplam Süre: <strong>8-10 Hafta</strong> <br />
+                            Общий срок: <strong>8-10 недель</strong> <br />
                             <span className="text-xs italic">
-                                (Backend hazırlık durumu ve entegrasyon kapsamına göre güncellenebilir)
+                                (Может быть скорректирован в зависимости от готовности backend и объёма интеграций)
                             </span>
                         </p>
 
-                        {/* Detaylı Sprint Planı */}
+                        {/* Детальный Sprint план */}
                         <div className="mt-6 space-y-3">
                             <h3 className="text-md font-semibold uppercase tracking-[0.18em] text-slate-500 flex items-center gap-2">
-                                <Calendar className="w-4 h-4" /> Detaylı Sprint Planı (Örnek Takvim)
+                                <Calendar className="w-4 h-4" /> Детальный Sprint план (Пример)
                             </h3>
                             <p className="text-xs text-slate-500 italic">
-                                * Başlangıç tarihi: Sözleşme imzası sonrası
+                                * Дата начала: после подписания контракта
                             </p>
 
                             <div className="space-y-2">
                                 <div className="flex items-center gap-3 rounded-lg border border-slate-200 p-3">
                                     <div className="w-16 text-center">
                                         <div className="text-xs font-bold text-slate-600">Sprint 0</div>
-                                        <div className="text-xs text-slate-500">1 Hafta</div>
+                                        <div className="text-xs text-slate-500">1 неделя</div>
                                     </div>
                                     <div className="flex-1">
                                         <div className="font-medium text-slate-800">Foundation + Navigation</div>
-                                        <p className="text-xs text-slate-600">App skeleton, bottom nav + burger overlay, base UI kit, auth flow temel</p>
+                                        <p className="text-xs text-slate-600">App skeleton, bottom nav + burger overlay, base UI kit, auth flow основа</p>
                                     </div>
                                 </div>
 
                                 <div className="flex items-center gap-3 rounded-lg border border-slate-200 p-3">
                                     <div className="w-16 text-center">
                                         <div className="text-xs font-bold text-slate-600">Sprint 1</div>
-                                        <div className="text-xs text-slate-500">2-3 Hafta</div>
+                                        <div className="text-xs text-slate-500">2-3 недели</div>
                                     </div>
                                     <div className="flex-1">
-                                        <div className="font-medium text-slate-800">KYC Modülü + Deal Creation</div>
+                                        <div className="font-medium text-slate-800">KYC модуль + Deal Creation</div>
                                         <p className="text-xs text-slate-600">Company details, docs upload, Invoice payment form, FX revenue return form</p>
                                     </div>
                                 </div>
@@ -467,7 +467,7 @@ export default function VVPlatformProposal() {
                                 <div className="flex items-center gap-3 rounded-lg border border-slate-200 p-3">
                                     <div className="w-16 text-center">
                                         <div className="text-xs font-bold text-slate-600">Sprint 2</div>
-                                        <div className="text-xs text-slate-500">4-6 Hafta</div>
+                                        <div className="text-xs text-slate-500">4-6 недель</div>
                                     </div>
                                     <div className="flex-1">
                                         <div className="font-medium text-slate-800">Deal Tracking + History</div>
@@ -478,7 +478,7 @@ export default function VVPlatformProposal() {
                                 <div className="flex items-center gap-3 rounded-lg border border-slate-200 p-3">
                                     <div className="w-16 text-center">
                                         <div className="text-xs font-bold text-slate-600">Sprint 3</div>
-                                        <div className="text-xs text-slate-500">7-8 Hafta</div>
+                                        <div className="text-xs text-slate-500">7-8 недель</div>
                                     </div>
                                     <div className="flex-1">
                                         <div className="font-medium text-slate-800">Support + Partner Tools</div>
@@ -489,7 +489,7 @@ export default function VVPlatformProposal() {
                                 <div className="flex items-center gap-3 rounded-lg border border-slate-200 p-3">
                                     <div className="w-16 text-center">
                                         <div className="text-xs font-bold text-slate-600">Sprint 4</div>
-                                        <div className="text-xs text-slate-500">9-10 Hafta</div>
+                                        <div className="text-xs text-slate-500">9-10 недель</div>
                                     </div>
                                     <div className="flex-1">
                                         <div className="font-medium text-slate-800">QA & Release</div>
@@ -500,81 +500,81 @@ export default function VVPlatformProposal() {
                         </div>
                     </section>
 
-                    {/* Paketler ve Fiyatlandırma */}
+                    {/* Пакеты и ценообразование */}
                     <section className="space-y-4" id="packages">
                         <div className="flex items-center gap-3">
                             <span className="h-px flex-1 bg-slate-200" />
                             <h2 className="shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-                                Paketler ve Fiyatlandırma
+                                Пакеты и цены
                             </h2>
                             <span className="h-px flex-1 bg-slate-200" />
                         </div>
 
                         <div className="grid gap-6 md:grid-cols-3">
-                            {/* STANDART */}
+                            {/* СТАНДАРТ */}
                             <div className="flex flex-col rounded-2xl border border-slate-200 bg-slate-50 p-4 shadow-md">
                                 <div className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-600 flex items-center gap-1">
-                                    <CircleDot className="w-3 h-3" /> Standart Paket
+                                    <CircleDot className="w-3 h-3" /> Стандарт пакет
                                 </div>
                                 <div className="mt-2 text-xl font-bold text-slate-900">
                                     4.500 USD
                                 </div>
                                 <p className="mt-1 text-xs text-slate-600">
-                                    MVP - Hızlı Başlangıç
+                                    MVP - Быстрый старт
                                 </p>
                                 <ul className="mt-3 space-y-1 text-sm text-slate-700 flex-1">
-                                    <li>✓ Product Discovery Workshop (1 hafta)</li>
+                                    <li>✓ Product Discovery Workshop (1 неделя)</li>
                                     <li>✓ Wireframe + UX Flow</li>
-                                    <li>✓ Basit ama temiz UI Kit</li>
+                                    <li>✓ Простой но чистый UI Kit</li>
                                     <li>✓ Core MVP Backend</li>
                                     <li>✓ User Auth (Login / Register)</li>
-                                    <li>✓ Temel Deal / Order Yönetimi</li>
-                                    <li>✓ Basit Payment Logic (Mock / Manual)</li>
+                                    <li>✓ Базовое управление Deal / Order</li>
+                                    <li>✓ Простая Payment Logic (Mock / Manual)</li>
                                     <li>✓ Admin Panel (Basic)</li>
-                                    <li>✓ Teknik Dokümantasyon</li>
-                                    <li>✓ 2 Hafta Bug Fix Desteği</li>
+                                    <li>✓ Техническая документация</li>
+                                    <li>✓ 2 недели Bug Fix поддержки</li>
                                 </ul>
                                 <div className="mt-3 border-t border-slate-200 pt-3 text-xs text-slate-600">
-                                    <div className="font-semibold">Hariç:</div>
-                                    <div>• Partner sistemi</div>
-                                    <div>• Gelişmiş raporlar</div>
-                                    <div>• Otomatik ödeme altyapısı</div>
+                                    <div className="font-semibold">Не включено:</div>
+                                    <div>• Partner система</div>
+                                    <div>• Расширенные отчёты</div>
+                                    <div>• Автоматическая платёжная инфраструктура</div>
                                 </div>
                             </div>
 
-                            {/* GELİŞMİŞ */}
+                            {/* РАСШИРЕННЫЙ */}
                             <div className="flex flex-col rounded-2xl border border-slate-300 bg-slate-100 p-4 shadow-md ring-2 ring-slate-400">
                                 <div className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-700 flex items-center gap-1">
-                                    <CircleDot className="w-3 h-3" /> Gelişmiş Paket ⭐
+                                    <CircleDot className="w-3 h-3" /> Расширенный пакет ⭐
                                 </div>
                                 <div className="mt-2 text-xl font-bold text-slate-900">
                                     8.999 USD
                                 </div>
                                 <p className="mt-1 text-xs text-slate-600">
-                                    MVP + Partner Sistemi
+                                    MVP + Partner система
                                 </p>
                                 <ul className="mt-3 space-y-1 text-sm text-slate-700 flex-1">
-                                    <li>✓ Standart Paket +</li>
-                                    <li>✓ Partner / Affiliate Sistemi</li>
-                                    <li>✓ Client & Partner Rolleri</li>
-                                    <li>✓ Deals & Orders Gelişmiş Akış</li>
-                                    <li>✓ Otomatik Invoice & Ödeme Mantığı</li>
+                                    <li>✓ Стандарт пакет +</li>
+                                    <li>✓ Partner / Affiliate система</li>
+                                    <li>✓ Client & Partner роли</li>
+                                    <li>✓ Deals & Orders расширенный поток</li>
+                                    <li>✓ Автоматический Invoice & Платёжная логика</li>
                                     <li>✓ Income Calculator</li>
-                                    <li>✓ Dashboard (Gelir, işlem, kullanıcı)</li>
+                                    <li>✓ Dashboard (Доход, операции, пользователи)</li>
                                     <li>✓ Basic Analytics (CSV / Export)</li>
                                     <li>✓ Notification System (Email / In-App)</li>
                                     <li>✓ Staging Deployment</li>
-                                    <li>✓ 1 Ay Destek & İyileştirme</li>
+                                    <li>✓ 1 месяц поддержки & улучшений</li>
                                 </ul>
                                 <div className="mt-3 border-t border-slate-300 pt-3 text-xs text-slate-600">
-                                    <div className="font-semibold text-slate-700">ÖNERİLEN</div>
+                                    <div className="font-semibold text-slate-700">РЕКОМЕНДУЕМЫЙ</div>
                                 </div>
                             </div>
 
-                            {/* PREMIUM */}
+                            {/* ПРЕМИУМ */}
                             <div className="flex flex-col rounded-2xl border border-slate-200 bg-slate-50 p-4 shadow-md">
                                 <div className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-600 flex items-center gap-1">
-                                    <CircleDot className="w-3 h-3" /> Premium Paket
+                                    <CircleDot className="w-3 h-3" /> Премиум пакет
                                 </div>
                                 <div className="mt-2 text-xl font-bold text-slate-900">
                                     13.999 USD
@@ -583,167 +583,167 @@ export default function VVPlatformProposal() {
                                     Full Scope - Production Ready
                                 </p>
                                 <ul className="mt-3 space-y-1 text-sm text-slate-700 flex-1">
-                                    <li>✓ Gelişmiş Paket dahil</li>
+                                    <li>✓ Расширенный пакет включён</li>
                                     <li>✓ Advanced UX/UI (Design System)</li>
-                                    <li>✓ QA Test Senaryoları</li>
+                                    <li>✓ QA тест сценарии</li>
                                     <li>✓ CI/CD Pipeline</li>
-                                    <li>✓ DevOps Kurulumu</li>
-                                    <li>✓ Performans Optimizasyonu</li>
-                                    <li>✓ Güvenlik Kontrolleri</li>
+                                    <li>✓ DevOps настройка</li>
+                                    <li>✓ Оптимизация производительности</li>
+                                    <li>✓ Проверки безопасности</li>
                                     <li>✓ Production Release</li>
                                     <li>✓ Monitoring & Logging</li>
-                                    <li>✓ Hosting masrafları</li>
-                                    <li>✓ Server masrafları</li>
-                                    <li>✓ Uygulamanın store yüklenimi</li>
-                                    <li>✓ 4 Ay Destek (keyfi değişiklikleri içermez)</li>
+                                    <li>✓ Расходы на хостинг</li>
+                                    <li>✓ Расходы на сервер</li>
+                                    <li>✓ Публикация в store</li>
+                                    <li>✓ 4 месяца поддержки (не включает произвольные изменения)</li>
                                 </ul>
                             </div>
                         </div>
                     </section>
 
-                    {/* Ödeme Yöntemleri */}
+                    {/* Условия оплаты */}
                     <section className="space-y-4" id="payment">
                         <div className="flex items-center gap-3">
                             <span className="h-px flex-1 bg-slate-200" />
                             <h2 className="shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-                                Ödeme Koşulları
+                                Условия оплаты
                             </h2>
                             <span className="h-px flex-1 bg-slate-200" />
                         </div>
 
                         <div className="space-y-3">
                             <h3 className="text-md font-semibold uppercase tracking-[0.18em] text-slate-500">
-                                Ödeme Planı (Tüm Paketler İçin)
+                                План оплаты (Для всех пакетов)
                             </h3>
                             <div className="grid gap-3 sm:grid-cols-2">
                                 <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-3 text-center">
-                                    <div className="text-2xl font-bold text-slate-700">%50</div>
-                                    <div className="text-sm text-slate-600">Proje Başlangıcı</div>
+                                    <div className="text-2xl font-bold text-slate-700">50%</div>
+                                    <div className="text-sm text-slate-600">Начало проекта</div>
                                 </div>
                                 <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-3 text-center">
-                                    <div className="text-2xl font-bold text-slate-700">%50</div>
-                                    <div className="text-sm text-slate-600">Proje Sonu</div>
+                                    <div className="text-2xl font-bold text-slate-700">50%</div>
+                                    <div className="text-sm text-slate-600">Завершение проекта</div>
                                 </div>
                             </div>
                         </div>
 
                         <div className="space-y-3">
                             <h3 className="text-md font-semibold uppercase tracking-[0.18em] text-slate-500">
-                                Ödeme Yöntemleri
+                                Способы оплаты
                             </h3>
 
                             <div className="grid gap-3 sm:grid-cols-3">
                                 <div className="rounded-xl border border-slate-200 p-3">
-                                    <div className="font-semibold text-slate-800 flex items-center gap-1"><Building className="w-4 h-4" /> Şirkete Ödeme</div>
-                                    <p className="text-sm text-slate-600 mt-1">Banka transferi / Fatura</p>
-                                    <p className="text-xs text-amber-600 mt-2 font-medium">* Toplam tutara %7 eklenir</p>
+                                    <div className="font-semibold text-slate-800 flex items-center gap-1"><Building className="w-4 h-4" /> Оплата на компанию</div>
+                                    <p className="text-sm text-slate-600 mt-1">Банковский перевод / Счёт</p>
+                                    <p className="text-xs text-amber-600 mt-2 font-medium">* К сумме добавляется 7%</p>
                                 </div>
                                 <div className="rounded-xl border border-slate-200 p-3">
                                     <div className="font-semibold text-slate-800 flex items-center gap-1"><Diamond className="w-4 h-4" /> USDT</div>
-                                    <p className="text-sm text-slate-600 mt-1">Kripto ödeme (TRC-20 / ERC-20)</p>
-                                    <p className="text-xs text-green-600 mt-2 font-medium">✓ Ek ücret yok</p>
+                                    <p className="text-sm text-slate-600 mt-1">Крипто оплата (TRC-20 / ERC-20)</p>
+                                    <p className="text-xs text-green-600 mt-2 font-medium">✓ Без доп. комиссии</p>
                                 </div>
                                 <div className="rounded-xl border border-slate-200 p-3">
-                                    <div className="font-semibold text-slate-800 flex items-center gap-1"><Banknote className="w-4 h-4" /> Nakit</div>
-                                    <p className="text-sm text-slate-600 mt-1">Elden / Doğrudan ödeme</p>
-                                    <p className="text-xs text-green-600 mt-2 font-medium">✓ Ek ücret yok</p>
+                                    <div className="font-semibold text-slate-800 flex items-center gap-1"><Banknote className="w-4 h-4" /> Наличные</div>
+                                    <p className="text-sm text-slate-600 mt-1">Лично / Прямая оплата</p>
+                                    <p className="text-xs text-green-600 mt-2 font-medium">✓ Без доп. комиссии</p>
                                 </div>
                             </div>
                         </div>
 
-                        {/* Fiyat Tablosu */}
+                        {/* Таблица цен */}
                         <div className="overflow-x-auto rounded-2xl border border-slate-200">
                             <table className="min-w-full text-left text-md text-slate-700">
                                 <thead className="bg-slate-50 text-xs uppercase tracking-wide text-slate-500">
                                     <tr>
-                                        <th className="px-4 py-3">Paket</th>
-                                        <th className="px-4 py-3">Net Tutar</th>
-                                        <th className="px-4 py-3">Şirket Ödemesi (+%7)</th>
-                                        <th className="px-4 py-3">USDT / Nakit</th>
+                                        <th className="px-4 py-3">Пакет</th>
+                                        <th className="px-4 py-3">Чистая сумма</th>
+                                        <th className="px-4 py-3">Оплата на компанию (+7%)</th>
+                                        <th className="px-4 py-3">USDT / Наличные</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr className="border-t border-slate-100">
-                                        <td className="px-4 py-3 font-medium"><CircleDot className="w-3 h-3 inline text-sky-500" /> Standart</td>
-                                        <td className="px-4 py-3">20.000 USD</td>
-                                        <td className="px-4 py-3">21.400 USD</td>
-                                        <td className="px-4 py-3">20.000 USD</td>
+                                        <td className="px-4 py-3 font-medium"><CircleDot className="w-3 h-3 inline text-slate-500" /> Стандарт</td>
+                                        <td className="px-4 py-3">4.500 USD</td>
+                                        <td className="px-4 py-3">4.815 USD</td>
+                                        <td className="px-4 py-3">4.500 USD</td>
                                     </tr>
-                                    <tr className="border-t border-slate-100 bg-violet-50/30">
-                                        <td className="px-4 py-3 font-medium"><CircleDot className="w-3 h-3 inline text-violet-500" /> Gelişmiş</td>
-                                        <td className="px-4 py-3">28.000 USD</td>
-                                        <td className="px-4 py-3">29.960 USD</td>
-                                        <td className="px-4 py-3">28.000 USD</td>
+                                    <tr className="border-t border-slate-100 bg-slate-50/30">
+                                        <td className="px-4 py-3 font-medium"><CircleDot className="w-3 h-3 inline text-slate-600" /> Расширенный</td>
+                                        <td className="px-4 py-3">8.999 USD</td>
+                                        <td className="px-4 py-3">9.629 USD</td>
+                                        <td className="px-4 py-3">8.999 USD</td>
                                     </tr>
                                     <tr className="border-t border-slate-100">
-                                        <td className="px-4 py-3 font-medium"><CircleDot className="w-3 h-3 inline text-amber-500" /> Premium</td>
-                                        <td className="px-4 py-3">32.000 USD</td>
-                                        <td className="px-4 py-3">34.240 USD</td>
-                                        <td className="px-4 py-3">32.000 USD</td>
+                                        <td className="px-4 py-3 font-medium"><CircleDot className="w-3 h-3 inline text-slate-500" /> Премиум</td>
+                                        <td className="px-4 py-3">13.999 USD</td>
+                                        <td className="px-4 py-3">14.979 USD</td>
+                                        <td className="px-4 py-3">13.999 USD</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </section>
 
-                    {/* KYC/AML Sistemi */}
+                    {/* Система KYC/AML */}
                     <section className="space-y-4" id="kyc-aml">
                         <div className="flex items-center gap-3">
                             <span className="h-px flex-1 bg-slate-200" />
                             <h2 className="shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-                                KYC/AML Sistemi
+                                Система KYC/AML
                             </h2>
                             <span className="h-px flex-1 bg-slate-200" />
                         </div>
 
                         <p className="text-md text-slate-700">
-                            Uluslararası ödeme platformu olarak yasal zorunlulukları karşılamak için
-                            manuel KYC (Know Your Customer) ve AML (Anti-Money Laundering) doğrulama sistemi entegre edilecektir.
-                            Talepler Bitrix24 üzerinden admin paneline düşecek ve manuel olarak onaylanacaktır.
+                            Для соответствия законодательным требованиям международной платёжной платформы
+                            будет интегрирована ручная система верификации KYC (Know Your Customer) и AML (Anti-Money Laundering).
+                            Заявки будут поступать в админ панель Bitrix24 и подтверждаться вручную.
                         </p>
 
                         <div className="grid gap-4 sm:grid-cols-3">
                             <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-4">
                                 <div className="text-lg font-bold text-slate-700 mb-2">1</div>
                                 <div className="font-semibold text-slate-800">CIP</div>
-                                <p className="text-sm text-slate-600">Customer Identification Program - Temel bilgi doğrulama</p>
+                                <p className="text-sm text-slate-600">Customer Identification Program - Базовая верификация данных</p>
                             </div>
                             <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-4">
                                 <div className="text-lg font-bold text-slate-700 mb-2">2</div>
                                 <div className="font-semibold text-slate-800">Document Verification</div>
-                                <p className="text-sm text-slate-600">Manuel doküman doğrulama - Bitrix24 admin panel</p>
+                                <p className="text-sm text-slate-600">Ручная верификация документов - Bitrix24 admin panel</p>
                             </div>
                             <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-4">
                                 <div className="text-lg font-bold text-slate-700 mb-2">3</div>
                                 <div className="font-semibold text-slate-800">Sanctions Screening</div>
-                                <p className="text-sm text-slate-600">OFAC, UN listeleri ve PEP kontrolü</p>
+                                <p className="text-sm text-slate-600">Проверка OFAC, UN списков и PEP</p>
                             </div>
                         </div>
 
                         <div className="rounded-2xl border border-slate-200 p-4">
-                            <h4 className="text-md font-semibold text-slate-800 mb-3 flex items-center gap-2"><ClipboardList className="w-5 h-5" /> KYC Akışı</h4>
+                            <h4 className="text-md font-semibold text-slate-800 mb-3 flex items-center gap-2"><ClipboardList className="w-5 h-5" /> KYC поток</h4>
                             <div className="flex flex-wrap items-center justify-center gap-2 text-sm">
-                                <span className="rounded-lg bg-slate-100 px-3 py-1 text-slate-700">Kayıt</span>
+                                <span className="rounded-lg bg-slate-100 px-3 py-1 text-slate-700">Регистрация</span>
                                 <span className="text-slate-400">→</span>
-                                <span className="rounded-lg bg-slate-100 px-3 py-1 text-slate-700">Email Doğrulama</span>
+                                <span className="rounded-lg bg-slate-100 px-3 py-1 text-slate-700">Email верификация</span>
                                 <span className="text-slate-400">→</span>
-                                <span className="rounded-lg bg-slate-100 px-3 py-1 text-slate-700">Şirket Bilgileri</span>
+                                <span className="rounded-lg bg-slate-100 px-3 py-1 text-slate-700">Данные компании</span>
                                 <span className="text-slate-400">→</span>
-                                <span className="rounded-lg bg-slate-100 px-3 py-1 text-slate-700">Doküman Yükleme</span>
+                                <span className="rounded-lg bg-slate-100 px-3 py-1 text-slate-700">Загрузка документов</span>
                                 <span className="text-slate-400">→</span>
-                                <span className="rounded-lg bg-slate-100 px-3 py-1 text-slate-700">Bitrix Admin Onayı</span>
+                                <span className="rounded-lg bg-slate-100 px-3 py-1 text-slate-700">Подтверждение админом Bitrix</span>
                                 <span className="text-slate-400">→</span>
-                                <span className="rounded-lg bg-slate-100 px-3 py-1 text-slate-700">Onay</span>
+                                <span className="rounded-lg bg-slate-100 px-3 py-1 text-slate-700">Одобрение</span>
                             </div>
                         </div>
                     </section>
 
-                    {/* Güvenlik */}
+                    {/* Безопасность */}
                     <section className="space-y-4" id="security">
                         <div className="flex items-center gap-3">
                             <span className="h-px flex-1 bg-slate-200" />
                             <h2 className="shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-                                5 Katmanlı Güvenlik
+                                5-уровневая безопасность
                             </h2>
                             <span className="h-px flex-1 bg-slate-200" />
                         </div>
@@ -753,7 +753,7 @@ export default function VVPlatformProposal() {
                                 <div className="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-700 font-bold shrink-0">1</div>
                                 <div>
                                     <div className="font-semibold text-slate-800">Network Security</div>
-                                    <p className="text-sm text-slate-600">CloudFlare DDoS koruması, WAF, Rate limiting</p>
+                                    <p className="text-sm text-slate-600">CloudFlare DDoS защита, WAF, Rate limiting</p>
                                 </div>
                             </div>
                             <div className="rounded-xl border border-slate-200 p-3 flex items-start gap-3">
@@ -774,7 +774,7 @@ export default function VVPlatformProposal() {
                                 <div className="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-700 font-bold shrink-0">4</div>
                                 <div>
                                     <div className="font-semibold text-slate-800">Access Control</div>
-                                    <p className="text-sm text-slate-600">JWT tokens, MFA opsiyonu, RBAC, Audit logging</p>
+                                    <p className="text-sm text-slate-600">JWT tokens, опция MFA, RBAC, Audit logging</p>
                                 </div>
                             </div>
                             <div className="rounded-xl border border-slate-200 p-3 flex items-start gap-3">
@@ -787,97 +787,97 @@ export default function VVPlatformProposal() {
                         </div>
                     </section>
 
-                    {/* Ekran Sayıları */}
+                    {/* Количество экранов */}
                     <section className="space-y-4" id="screens">
                         <div className="flex items-center gap-3">
                             <span className="h-px flex-1 bg-slate-200" />
                             <h2 className="shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-                                Ekran Sayıları
+                                Количество экранов
                             </h2>
                             <span className="h-px flex-1 bg-slate-200" />
                         </div>
 
                         <div className="grid gap-4 sm:grid-cols-2">
-                            <div className="rounded-2xl border border-blue-200 bg-blue-50/50 p-4 text-center">
-                                <div className="text-4xl font-bold text-blue-600">12</div>
-                                <div className="text-md font-semibold text-slate-800 mt-1">Kullanıcı Kabini</div>
+                            <div className="rounded-2xl border border-slate-200 bg-slate-50/50 p-4 text-center">
+                                <div className="text-4xl font-bold text-slate-700">12</div>
+                                <div className="text-md font-semibold text-slate-800 mt-1">Кабинет пользователя</div>
                                 <p className="text-sm text-slate-600">Auth, KYC, Dashboard, Payments, Documents, Support</p>
                             </div>
-                            <div className="rounded-2xl border border-purple-200 bg-purple-50/50 p-4 text-center">
-                                <div className="text-4xl font-bold text-purple-600">26</div>
-                                <div className="text-md font-semibold text-slate-800 mt-1">Partner Kabini</div>
+                            <div className="rounded-2xl border border-slate-200 bg-slate-50/50 p-4 text-center">
+                                <div className="text-4xl font-bold text-slate-700">26</div>
+                                <div className="text-md font-semibold text-slate-800 mt-1">Кабинет партнёра</div>
                                 <p className="text-sm text-slate-600">+ Clients, Analytics, Calculator, Reports, Tools</p>
                             </div>
                         </div>
 
-                        <div className="rounded-2xl border border-slate-200 bg-gradient-to-r from-blue-50 to-purple-50 p-4 text-center">
-                            <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">38</div>
-                            <div className="text-md font-semibold text-slate-800 mt-1">Toplam Production Ekran</div>
+                        <div className="rounded-2xl border border-slate-200 bg-slate-50/50 p-4 text-center">
+                            <div className="text-5xl font-bold text-slate-700">38</div>
+                            <div className="text-md font-semibold text-slate-800 mt-1">Всего Production экранов</div>
                         </div>
                     </section>
 
-                    {/* Varsayımlar */}
+                    {/* Допущения */}
                     <section className="space-y-3" id="assumptions">
                         <h3 className="text-md font-semibold uppercase tracking-[0.18em] text-slate-500">
-                            Varsayımlar ve Hariç Kapsam
+                            Допущения и исключения
                         </h3>
 
                         <div className="grid gap-4 sm:grid-cols-2">
-                            <div className="rounded-xl border border-blue-200 bg-blue-50/50 p-3">
-                                <div className="font-semibold text-blue-800 mb-2">✓ Varsayımlar</div>
+                            <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-3">
+                                <div className="font-semibold text-slate-800 mb-2">✓ Допущения</div>
                                 <ul className="text-sm text-slate-600 space-y-1">
-                                    <li>• API servisleri müşteri tarafından sağlanır (veya ayrıca fiyatlanır)</li>
-                                    <li>• Kullanıcı rolü login sonrası backend'den döner</li>
-                                    <li>• Çoklu dil gereksinimi netleştirilecektir</li>
-                                    <li>• "Manager chat" özelliği real-time olup olmadığı netleştirilecektir</li>
+                                    <li>• API сервисы предоставляются клиентом (или оцениваются отдельно)</li>
+                                    <li>• Роль пользователя возвращается backend после логина</li>
+                                    <li>• Требования к мультиязычности будут уточнены</li>
+                                    <li>• Уточнится, является ли "Manager chat" real-time</li>
                                 </ul>
                             </div>
-                            <div className="rounded-xl border border-red-200 bg-red-50/50 p-3">
-                                <div className="font-semibold text-red-800 mb-2">✗ Hariç Kapsam</div>
+                            <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-3">
+                                <div className="font-semibold text-slate-800 mb-2">✗ Исключения</div>
                                 <ul className="text-sm text-slate-600 space-y-1">
-                                    <li>• Admin / backoffice panel</li>
-                                    <li>• Gelişmiş BI & özel raporlama</li>
-                                    <li>• Harici KYC servis entegrasyonları</li>
-                                    <li>• 3rd-party lisans / servis ücretleri</li>
+                                    <li>• Admin / backoffice панель</li>
+                                    <li>• Расширенная BI & кастомная отчётность</li>
+                                    <li>• Внешние KYC сервисные интеграции</li>
+                                    <li>• Лицензии / сервисные расходы 3rd-party</li>
                                 </ul>
                             </div>
                         </div>
                     </section>
 
-                    {/* Sonuç */}
+                    {/* Заключение */}
                     <section className="space-y-3" id="conclusion">
                         <div className="flex items-center gap-3">
                             <span className="h-px flex-1 bg-slate-200" />
                             <h2 className="shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-                                Sonuç
+                                Заключение
                             </h2>
                             <span className="h-px flex-1 bg-slate-200" />
                         </div>
                         <p className="text-md leading-relaxed text-slate-700">
-                            <span className="font-semibold">Defyzer</span>, iki rolü (USER + PARTNER)
-                            tek mobil uygulama içinde birleştiren; KYC/AML doğrulama, invoice payment
-                            ve FX revenue return süreçleri, doküman yönetimi, işlem takibi ve partner
-                            özel modüllerini kapsayan bir ürünü, modern teknoloji ve DevOps
-                            standartlarıyla uçtan uca teslim etmeyi teklif eder.
+                            <span className="font-semibold">Defyzer</span> предлагает разработать продукт,
+                            объединяющий две роли (USER + PARTNER) в одном мобильном приложении;
+                            включающий KYC/AML верификацию, invoice payment и FX revenue return процессы,
+                            управление документами, отслеживание операций и специальные модули партнёра,
+                            с использованием современных технологий и стандартов DevOps.
                         </p>
                         <ul className="space-y-1 text-md text-slate-700">
-                            <li>✓ Navigasyon, tasarım sistemi ve performans hedefleri (LCP/CLS/TTI) proje kabul kriterleri olarak uygulanacaktır</li>
-                            <li>✓ Tek codebase, iOS + Android + Web desteği</li>
-                            <li>✓ Ölçeklenebilir mimari, kurumsal güvenlik standartları</li>
-                            <li>✓ Rusya piyasa benchmark'ına uygun, rekabetçi fiyatlandırma</li>
+                            <li>✓ Навигация, система дизайна и цели производительности (LCP/CLS/TTI) будут применяться как критерии приёмки проекта</li>
+                            <li>✓ Единая кодовая база, поддержка iOS + Android</li>
+                            <li>✓ Масштабируемая архитектура, корпоративные стандарты безопасности</li>
+                            <li>✓ Конкурентное ценообразование в соответствии с российским рынком</li>
                         </ul>
                         <p className="text-md leading-relaxed text-slate-700">
-                            Paket seçimi ve sözleşme imzası sonrası projeye hemen başlamaya hazırız.
+                            Мы готовы начать проект сразу после выбора пакета и подписания контракта.
                         </p>
                     </section>
 
-                    {/* İletişim */}
-                    <section className="rounded-2xl border border-slate-200 bg-gradient-to-r from-blue-50 to-purple-50 p-6 text-center">
+                    {/* Контакты */}
+                    <section className="rounded-2xl border border-slate-200 bg-slate-50/50 p-6 text-center">
                         <h3 className="text-lg font-semibold text-slate-800">
-                            Sorularınız mı var?
+                            Есть вопросы?
                         </h3>
                         <p className="mt-2 text-md text-slate-600">
-                            Projeniz hakkında konuşmak için bizimle iletişime geçin.
+                            Свяжитесь с нами, чтобы обсудить ваш проект.
                         </p>
                         <div className="mt-4 flex flex-wrap justify-center gap-4">
                             <a
