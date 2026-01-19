@@ -191,10 +191,10 @@ export default function VVPlatformProposal() {
                             </div>
                         </div>
 
-                        {/* Teknik Diyagramlar */}
+                        {/* Teknik Diyagramlar //vercel deploy fix */}
                         <div className="space-y-4 mt-6">
                             <h3 className="text-md font-semibold uppercase tracking-[0.18em] text-slate-500 flex items-center gap-2">
-                                <BarChart3 className="w-4 h-4" /> Teknik Diyagramlar <span className="text-xs text-amber-500 font-medium">(TASLAK)</span>
+                                <BarChart3 className="w-4 h-4" /> Teknk Diyagramlar <span className="text-xs text-amber-500 font-medium">(TASLAK)</span>
                             </h3>
 
                             <div className="grid gap-4">
