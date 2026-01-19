@@ -57,7 +57,7 @@ export default function VVPlatformProposal() {
                         </h1>
                         <p className="mt-2 max-w-2xl text-md text-slate-700 py-4">
                             Проект разработки комплексной платформы Личного Кабинета,
-                            поддерживающей две разные роли (USER + PARTNER) в одном мобильном приложении,
+                            поддерживающей две разные роли (USER + PARTNER) в одном веб-приложении,
                             с возможностью управления международными валютными операциями.
                         </p>
                     </div>
@@ -77,7 +77,7 @@ export default function VVPlatformProposal() {
 
                         <p className="text-md leading-relaxed text-slate-700">
                             <span className="font-semibold">Defyzer</span> предлагает разработку
-                            комплексного мобильного приложения для VV Platform, которое будет управлять
+                            комплексного адаптивного веб-приложения для VV Platform, которое будет управлять
                             международными валютными платежами (invoice payment) и возвратом валютной выручки
                             (FX revenue return).
                         </p>
@@ -87,8 +87,8 @@ export default function VVPlatformProposal() {
                                 <Target className="w-5 h-5" /> Цель проекта
                             </h4>
                             <p className="mt-2 text-md text-slate-700">
-                                Современная и масштабируемая платформа, поддерживающая
-                                две разные роли пользователей в одном приложении:
+                                Современная и масштабируемая веб-платформа, поддерживающая
+                                две разные роли пользователей в одном веб-приложении:
                             </p>
                             <ul className="mt-2 space-y-1 text-md text-slate-700">
                                 <li>• <strong>USER (Кабинет пользователя):</strong> Создание платёжных/транзакционных запросов, загрузка документов, отслеживание процесса</li>
@@ -97,7 +97,7 @@ export default function VVPlatformProposal() {
                         </div>
 
                         <p className="text-md leading-relaxed text-slate-700">
-                            Приложение будет разработано в соответствии с требованиями,
+                            Веб-приложение будет разработано в соответствии с требованиями,
                             определёнными в документации: структура навигации, стандарты UI/UX и цели производительности.
                         </p>
                     </section>
@@ -117,7 +117,7 @@ export default function VVPlatformProposal() {
                                 <ShieldCheck className="w-5 h-5" /> Управление доступом на основе ролей (RBAC)
                             </h4>
                             <p className="mt-2 text-md text-slate-700">
-                                Приложение будет разработано на единой кодовой базе. После входа backend возвращает "role":
+                                Веб-приложение будет разработано на единой кодовой базе. После входа backend возвращает "role":
                             </p>
                             <div className="mt-3 grid gap-3 sm:grid-cols-2">
                                 <div className="rounded-xl bg-white p-3 shadow-sm">
@@ -154,12 +154,12 @@ export default function VVPlatformProposal() {
 
                         <div className="grid gap-4 text-md text-slate-700 sm:grid-cols-2">
                             <div className="rounded-2xl border border-slate-200 p-4">
-                                <h4 className="text-sm font-semibold text-slate-800 mb-2 flex items-center gap-2"><Smartphone className="w-4 h-4" /> Мобильное приложение</h4>
+                                <h4 className="text-sm font-semibold text-slate-800 mb-2 flex items-center gap-2"><Globe className="w-4 h-4" /> Веб-приложение (Responsive)</h4>
                                 <ul className="space-y-1">
-                                    <li>• React Native — Единая кодовая база</li>
+                                    <li>• Next.js / React — Единая кодовая база</li>
                                     <li>• Clean Architecture</li>
                                     <li>• Redux / Zustand State Management</li>
-                                    <li>• iOS + Android</li>
+                                    <li>• Адаптивный дизайн (Desktop / Tablet / Mobile)</li>
                                 </ul>
                             </div>
                             <div className="rounded-2xl border border-slate-200 p-4">
@@ -247,6 +247,41 @@ export default function VVPlatformProposal() {
                                     >
                                         <Maximize2 className="w-4 h-4" /> Увеличить
                                     </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    {/* Преимущества веб-приложения */}
+                    <section className="space-y-4" id="web-advantages">
+                        <div className="flex items-center gap-3">
+                            <span className="h-px flex-1 bg-slate-200" />
+                            <h2 className="shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
+                                Преимущества веб-приложения
+                            </h2>
+                            <span className="h-px flex-1 bg-slate-200" />
+                        </div>
+
+                        <div className="rounded-2xl border border-green-200 bg-green-50/50 p-4">
+                            <h4 className="text-md font-semibold text-green-800 flex items-center gap-2">
+                                <Zap className="w-5 h-5" /> Почему веб-приложение?
+                            </h4>
+                            <div className="mt-3 grid gap-3 sm:grid-cols-2">
+                                <div className="rounded-xl bg-white p-3 shadow-sm">
+                                    <div className="text-sm font-semibold text-green-700">✓ Кроссплатформенность</div>
+                                    <p className="text-xs text-slate-600 mt-1">Работает на всех устройствах через браузер</p>
+                                </div>
+                                <div className="rounded-xl bg-white p-3 shadow-sm">
+                                    <div className="text-sm font-semibold text-green-700">✓ Мгновенные обновления</div>
+                                    <p className="text-xs text-slate-600 mt-1">Без ожидания одобрения магазина</p>
+                                </div>
+                                <div className="rounded-xl bg-white p-3 shadow-sm">
+                                    <div className="text-sm font-semibold text-green-700">✓ Единая кодовая база</div>
+                                    <p className="text-xs text-slate-600 mt-1">Все платформы из одного кода</p>
+                                </div>
+                                <div className="rounded-xl bg-white p-3 shadow-sm">
+                                    <div className="text-sm font-semibold text-green-700">✓ Адаптивный дизайн</div>
+                                    <p className="text-xs text-slate-600 mt-1">Desktop, Tablet, Mobile — единый UX</p>
                                 </div>
                             </div>
                         </div>
@@ -594,7 +629,6 @@ export default function VVPlatformProposal() {
                                     <li>✓ Monitoring & Logging</li>
                                     <li>✓ Расходы на хостинг</li>
                                     <li>✓ Расходы на сервер</li>
-                                    <li>✓ Публикация в store</li>
                                     <li>✓ 4 месяца поддержки (не включает произвольные изменения)</li>
                                 </ul>
                             </div>
@@ -855,14 +889,14 @@ export default function VVPlatformProposal() {
                         </div>
                         <p className="text-md leading-relaxed text-slate-700">
                             <span className="font-semibold">Defyzer</span> предлагает разработать продукт,
-                            объединяющий две роли (USER + PARTNER) в одном мобильном приложении;
+                            объединяющий две роли (USER + PARTNER) в одном адаптивном веб-приложении;
                             включающий KYC/AML верификацию, invoice payment и FX revenue return процессы,
                             управление документами, отслеживание операций и специальные модули партнёра,
                             с использованием современных технологий и стандартов DevOps.
                         </p>
                         <ul className="space-y-1 text-md text-slate-700">
                             <li>✓ Навигация, система дизайна и цели производительности (LCP/CLS/TTI) будут применяться как критерии приёмки проекта</li>
-                            <li>✓ Единая кодовая база, поддержка iOS + Android</li>
+                            <li>✓ Единая кодовая база, адаптивный дизайн для Desktop / Tablet / Mobile</li>
                             <li>✓ Масштабируемая архитектура, корпоративные стандарты безопасности</li>
                             <li>✓ Конкурентное ценообразование в соответствии с российским рынком</li>
                         </ul>
