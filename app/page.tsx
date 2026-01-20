@@ -442,26 +442,26 @@ export default function VVPlatformProposal() {
                                     <tr className="border-t border-slate-100">
                                         <td className="px-4 py-3 font-medium">Фаза 1</td>
                                         <td className="px-4 py-3">UX/UI Дизайн (UI Kit + Экраны)</td>
-                                        <td className="px-4 py-3 whitespace-nowrap">1-2 недели</td>
+                                        <td className="px-4 py-3 whitespace-nowrap">1 неделя</td>
                                     </tr>
 
                                     <tr className="border-t border-slate-100">
                                         <td className="px-4 py-3 font-medium">Фаза 2</td>
                                         <td className="px-4 py-3">Core MVP Разработка (общие USER + PARTNER)</td>
-                                        <td className="px-4 py-3 whitespace-nowrap">4-5 недель</td>
+                                        <td className="px-4 py-3 whitespace-nowrap">4 недели</td>
                                     </tr>
 
                                     <tr className="border-t border-slate-100">
                                         <td className="px-4 py-3 font-medium">Фаза 3</td>
                                         <td className="px-4 py-3">QA, DevOps & Release</td>
-                                        <td className="px-4 py-3 whitespace-nowrap">1-2 недели</td>
+                                        <td className="px-4 py-3 whitespace-nowrap">2 недели</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
 
                         <p className="text-sm text-slate-600">
-                            Общий срок: <strong>8-10 недель</strong> <br />
+                            Общий срок: <strong>8 недель</strong> <br />
                             <span className="text-xs italic">
                                 (Может быть скорректирован в зависимости от готовности backend и объёма интеграций)
                             </span>
@@ -491,7 +491,7 @@ export default function VVPlatformProposal() {
                                 <div className="flex items-center gap-3 rounded-lg border border-slate-200 p-3">
                                     <div className="w-16 text-center">
                                         <div className="text-xs font-bold text-slate-600">Sprint 1</div>
-                                        <div className="text-xs text-slate-500">2-3 недели</div>
+                                        <div className="text-xs text-slate-500">2 недели</div>
                                     </div>
                                     <div className="flex-1">
                                         <div className="font-medium text-slate-800">KYC модуль + Deal Creation</div>
@@ -502,7 +502,7 @@ export default function VVPlatformProposal() {
                                 <div className="flex items-center gap-3 rounded-lg border border-slate-200 p-3">
                                     <div className="w-16 text-center">
                                         <div className="text-xs font-bold text-slate-600">Sprint 2</div>
-                                        <div className="text-xs text-slate-500">4-6 недель</div>
+                                        <div className="text-xs text-slate-500">4-5 недель</div>
                                     </div>
                                     <div className="flex-1">
                                         <div className="font-medium text-slate-800">Deal Tracking + History</div>
@@ -513,7 +513,7 @@ export default function VVPlatformProposal() {
                                 <div className="flex items-center gap-3 rounded-lg border border-slate-200 p-3">
                                     <div className="w-16 text-center">
                                         <div className="text-xs font-bold text-slate-600">Sprint 3</div>
-                                        <div className="text-xs text-slate-500">7-8 недель</div>
+                                        <div className="text-xs text-slate-500">6-7 недель</div>
                                     </div>
                                     <div className="flex-1">
                                         <div className="font-medium text-slate-800">Support + Partner Tools</div>
@@ -524,7 +524,7 @@ export default function VVPlatformProposal() {
                                 <div className="flex items-center gap-3 rounded-lg border border-slate-200 p-3">
                                     <div className="w-16 text-center">
                                         <div className="text-xs font-bold text-slate-600">Sprint 4</div>
-                                        <div className="text-xs text-slate-500">9-10 недель</div>
+                                        <div className="text-xs text-slate-500">8 неделя</div>
                                     </div>
                                     <div className="flex-1">
                                         <div className="font-medium text-slate-800">QA & Release</div>
@@ -583,7 +583,7 @@ export default function VVPlatformProposal() {
                                     <CircleDot className="w-3 h-3" /> Расширенный пакет ⭐
                                 </div>
                                 <div className="mt-2 text-xl font-bold text-slate-900">
-                                    8.999 USD
+                                    7.999 USD
                                 </div>
                                 <p className="mt-1 text-xs text-slate-600">
                                     MVP + Partner система
@@ -612,7 +612,7 @@ export default function VVPlatformProposal() {
                                     <CircleDot className="w-3 h-3" /> Премиум пакет
                                 </div>
                                 <div className="mt-2 text-xl font-bold text-slate-900">
-                                    13.999 USD
+                                    11.999 USD
                                 </div>
                                 <p className="mt-1 text-xs text-slate-600">
                                     Full Scope - Production Ready
@@ -705,15 +705,15 @@ export default function VVPlatformProposal() {
                                     </tr>
                                     <tr className="border-t border-slate-100 bg-slate-50/30">
                                         <td className="px-4 py-3 font-medium"><CircleDot className="w-3 h-3 inline text-slate-600" /> Расширенный</td>
-                                        <td className="px-4 py-3">8.999 USD</td>
+                                        <td className="px-4 py-3">7.999 USD</td>
                                         <td className="px-4 py-3">9.629 USD</td>
-                                        <td className="px-4 py-3">8.999 USD</td>
+                                        <td className="px-4 py-3">7.999 USD</td>
                                     </tr>
                                     <tr className="border-t border-slate-100">
                                         <td className="px-4 py-3 font-medium"><CircleDot className="w-3 h-3 inline text-slate-500" /> Премиум</td>
-                                        <td className="px-4 py-3">13.999 USD</td>
+                                        <td className="px-4 py-3">11.999 USD</td>
                                         <td className="px-4 py-3">14.979 USD</td>
-                                        <td className="px-4 py-3">13.999 USD</td>
+                                        <td className="px-4 py-3">11.999 USD</td>
                                     </tr>
                                 </tbody>
                             </table>
